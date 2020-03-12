@@ -1,0 +1,41 @@
+html {
+    padding: 0 0 0 0 ;
+    /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 20px; 
+    background-color: white;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Muli', sans-serif;
+}
+body{
+    background-color: white;
+    /* border: 50px solid white; */
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    text-shadow:1px 1px 1px black;
+}
+ul{
+  
+}
+.nav{
+    display: flex;
+}
+.nav_menu>ul>li{
+    display: flex;
+    float: left;
+    text-align: center;
+    width: 10vw;
+    line-height: 1.0;
+    letter-spacing: 0.5px;
+    border: 2mm ridge cornflowerblue ;
+}
+img{
+    width: 100%
+}
+.title{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+}
